@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Patua One, Arial, Helvetica, sans-serif;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+h1 , h2 , h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------head--------------- */
+#cabecalho {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(51, 15, 10);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#titulo {
+  color: rgb(239, 221, 141);
+  font-style: italic;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.title-links {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 10px;
+  list-style: none;
+  padding: 10px;
+  border: 3px solid white;
+}
+
+.title-links a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* ------------------profile------------------- */
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  vertical-align: top;
+  margin: 180px 40px 40px 70px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: rgb(51, 15, 10);
+  color: rgb(239, 221, 141);
+}
+
+#minha_foto {
+  float: left;
+  width: 300px;
+  border-radius: 40px;
+  border: 4px solid rgb(239, 221, 141);
+  margin-left: 20px;
+}
+
+#aside-text {
+  margin-top: 30px;
+  display: inline-block;
+  width: 50%;
+}
+
+aside h2 {
+  font-size: 30px;
+}
+
+aside p {
+  font-size: 25px;
+  line-height: 2em;
+  color: white;
+}
+
+/* ---------------------article------------------ */
+.lado-direito {
+  display: inline-block;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  width: 30%;
+  font-size: 20px;
+  border-radius: 12px;
+  background-color: rgb(51, 15, 10);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  font-family: Baloo 2, Arial, Helvetica, sans-serif;
+}
+
+article h2 {
+  color: rgb(239, 221, 141);
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* ---------------Lists------------------------ */
+#lists {
+  clear: both;
+  max-width: 80%;
+  font-size: 25px;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+}
+
+.lists-content {
+  width: 600px;
+  display: inline-block;
+  max-width: 40%;
+  padding: 20px;
+  border: 4px solid rgb(239, 221, 141);
+  border-radius: 12px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  list-style-position: inside;
+}
+
+#licoes_a_aprender {
+  padding-top: 43px;
+  display: inline-block;
+  list-style-position: inside;
+}
+
+#lists li {
+  padding: 4px;
+}
+
+#lists h2 {
+  margin-bottom: 12px;
+}
+
+/* --------------------table ------------------- */
+#table-container {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: darkslategray;
+  color: rgb(239, 221, 141);
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 20px;
+}
+
+td {
+  color: white;
+}
+
+#table-container td a {
+  color: white;
+  text-decoration: none;
+}
+
+#table-container td , th {
+  border: 3px solid white;
+  padding: 12px;
+}
+
+/* ---------------------footer ------------------- */
+#rodape {
+  background-color: rgb(51, 15, 10);
+  color: white;
+  padding: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Baloo 2, Arial, Helvetica, sans-serif;
+}
